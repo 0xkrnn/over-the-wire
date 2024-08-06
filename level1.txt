@@ -1,0 +1,26 @@
+Dashed filenames :
+
+    > filename begins with dash are called dashedfile or hyphenated file
+    > if we use touch -abc.txt, it will give you an error
+    > because anything after -(hyphen) will be treated as an option
+    > To resolve this
+
+        $ touch -- -abc.txt		[Option #1]
+        $ touch ./-abc.txt		[Option #2]
+
+
+Create a Hash File in Linux :
+
+    > touch #cat.txt
+    > bash will intercept this as a comment
+
+        $ touch ./#abc.txt
+        $ touch '#abc.txt'  
+
+    > we should wrap the filename with '' (apostrophe), if we need to create a file that starts with special character other that hyphen(-)
+
+Solution :
+
+    > if we list the files we can find a file named - (hyphen).
+    > Read that file 
+    > 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
