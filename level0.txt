@@ -1,0 +1,37 @@
+SSH :
+
+    > Secure Shell is a network communication protocol that enables two computers to communicate
+    > used to connect two devices (server and client)
+    > we can also use ssh for file transferring
+    > SSH clients will typically support SCP (Secure Copy) and/or SFTP (SSH File Transfer Protocol) for transferring data
+    > SSH runs on TCP/IP
+    > PORT 22
+
+
+Prerequisites
+
+    > The remote computer must be turned on and have a network connection.
+    > The IP address or the name of the remote machine.
+    > Permission to access the remote computer.
+    > Firewall settings to allow SSH connections.
+
+How does SSH work ? 
+
+    > A client-side component is a program used to connect to another machine.
+    > SSH daemon constantly listens to a specific TCP/IP port for possible client connection requests.
+    > When establishing a connection, the client provides identification data to the server (as a username/password or SSH keys).
+    > The client and server exchange cryptographic keys to create a secure communication channel. The keys help encrypt subsequent communication.
+
+
+Logging with SSH :
+
+    > ssh remote_username@remote_host -p portNumber
+    > To exit --> exit
+
+
+Task :
+
+    > login to the ssh server
+    > read the file 
+    > you will get the answer
+    > ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
